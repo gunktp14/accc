@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fcfcfc;
+    padding-top: 5rem;
+}
+
+.text-xsmall{
+    font-size: x-small;
+}
+
+.conditionNote{
+    display: flex;
+    grid-gap:0.5rem;
+}
+
+.mainFormSignIn{
+    background-color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin:0 auto;
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signInform{
+    background-color: #fff;
+    padding: 1rem;
+    width: 400px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.picSignIn{
+    padding: 3rem;
+    width: 400px;
+    height: 470px;
+    margin:0 auto;
+    justify-content: center;
+    display: flex;
+
+}
+
+.blue{
+    background-color: aqua;
+    color:#fff;
+    margin-bottom:2rem;
+}
+
+@media screen and (max-width:420px){
+    .picSignIn{
+        display: none;
+    }
+    .mainFormSignIn{
+        background-color: #fff;
+        padding: 1rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        margin:0 auto;
+        display: flex;
+        width: 100%;
+    }
+    .signInform{
+        background-color: #fff;
+        padding: 1rem;
+        width: 400px;
+        height: 100%;
+        margin:0 auto;
+    }
+}
